@@ -1,0 +1,56 @@
+{
+  "user_id_list": [
+    "1871821935"
+  ],
+  "filter": 1,
+  "since_date": "2018-01-01",
+  "end_date": "now",
+  "random_wait_pages": [
+    1,
+    5
+  ],
+  "random_wait_seconds": [
+    6,
+    10
+  ],
+  "global_wait": [
+    [
+      1000,
+      3600
+    ],
+    [
+      500,
+      2000
+    ]
+  ],
+  "write_mode": [
+    "csv",
+    "txt"
+  ],
+  "pic_download": 1,
+  "video_download": 1,
+  "file_download_timeout": [
+    5,
+    5,
+    10
+  ],
+  "result_dir_name": 0,
+  "cookie": "_T_WM=04880d5f124d730ad5e2d22b35445f37; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WWOd-2y5aQMBANronYeI7nO5JpX5K-hUgL.FoM0Shn7S0z0She2dJLoI7yQMJH4Ugpa97tt; MLOGIN=1; SCF=ArwBbgYGS-iqpxaFehhbJNxigFFCyq_Ea-EVTsARvUjaKRWcE-9NLsoOA_uw2d6RIXS9Jy5xV7lZl4q2uNxM1zg.; SUB=_2A25J9BJHDeRhGeFN71oR9yzPzz-IHXVrFr4PrDV6PUJbktAGLU3FkW1NQA0nMSR2QgDPwwF4tiLOI8Y_rCzeHvc4; SSOLoginState=1693475352; ALF=1696067352; M_WEIBOCN_PARAMS=luicode%3D10000011%26lfid%3D231051_-_followers_-_6048569942",
+  "mysql_config": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "123456",
+    "charset": "utf8mb4"
+  },
+  "kafka_config": {
+    "bootstrap-server": "127.0.0.1:9092",
+    "weibo_topics": [
+      "spider_weibo"
+    ],
+    "user_topics": [
+      "spider_weibo"
+    ]
+  },
+  "sqlite_config": "weibo.db"
+}
